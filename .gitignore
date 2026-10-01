@@ -1,0 +1,28 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# IDE and user-specific files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and tooling output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs and local runtime files
+*.log
+logs/
+
+# Local-only configuration and secrets
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+*.pem
+*.key
